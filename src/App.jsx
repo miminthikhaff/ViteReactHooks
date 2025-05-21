@@ -1,14 +1,12 @@
-import './App.css'
+import "./App.css";
+import Counter from "./components/state/Counter";
 
 function App() {
- 
-
   return (
-    <>
-      <h1>I'm from App Component</h1>
+    <div className="container">
       <Counter />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
