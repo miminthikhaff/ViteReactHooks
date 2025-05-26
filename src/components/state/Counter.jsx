@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+// This component demonstrates how to use the useState hook to manage a simple counter.
+
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -31,6 +33,8 @@ function Counter() {
 }
 
 export default Counter;
+
+// method 1: Using inline functions
 
 /* function Counter() {
   const [count, setCount] = useState(0);
@@ -64,6 +68,8 @@ export default Counter;
 }
 
 export default Counter; */
+
+// method 2: Using separate functions
 
 /* 
 function Counter() {
