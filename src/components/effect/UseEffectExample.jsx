@@ -1,15 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 function UseEffectExample() {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
 
+  useEffect(() => {
+    console.log("Component Mounted Use Effect 1");
+  }, []);
+
   function handleIncrement1() {
-    setCount1(prevState => prevState + 1);
+    setCount1((prevState) => prevState + 1);
   }
 
   function handleIncrement2() {
-    setCount2(prevState => prevState + 1);
+    setCount2((prevState) => prevState + 1);
   }
 
   return (
