@@ -8,6 +8,11 @@ function UseEffectExample() {
     console.log("Component Mounted Use Effect 1");
   }, [count1]);
 
+
+  useEffect(() => {
+    console.log("Component Mounted Use Effect 2");
+  }, [count2]);
+
   function handleIncrement1() {
     setCount1((prevState) => prevState + 1);
   }
