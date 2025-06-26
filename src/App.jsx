@@ -1,5 +1,6 @@
 import "./App.css";
 import GitHubUsers from "./components/effect/GitHubUsers";
+import Timer from "./components/effect/Timer";
 /* import Counter from "./components/state/Counter";
 import Cart from "./components/state/Cart"; */
 import UseEffectExample from "./components/effect/UseEffectExample";
@@ -10,7 +11,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Cart /> */}
       {/* <UseEffectExample /> */}
-      <GitHubUsers />
+      {/* <GitHubUsers /> */}
+      <Timer.jsx />
     </div>
   );
 }
